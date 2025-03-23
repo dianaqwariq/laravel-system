@@ -2,7 +2,7 @@
 
 return [
     'defaults' => [
-        'guard' => 'api', // Changed to 'api'
+        'guard' => 'api', //  change it from web to api
         'passwords' => 'users',
     ],
 
@@ -13,7 +13,7 @@ return [
         ],
 
         'api' => [
-            'driver' => 'jwt', // Added 'api' guard with 'jwt' driver
+            'driver' => 'jwt', // added this
             'provider' => 'users',
         ],
     ],
